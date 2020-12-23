@@ -64,13 +64,13 @@ function setup() {
   blocks8 = new Block(730,135,30,40);
   //level three
   blocks9 = new Block(700,95,30,40);
+  
 
   //ball  with slings
   ball = Bodies.circle(50,200,20);
   World.add(world,ball);
 
   slingShot = new SlingShot(this.ball,{x:200,y:200});
-
 }
 
 function draw() {
